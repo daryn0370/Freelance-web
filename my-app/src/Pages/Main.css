@@ -1,0 +1,57 @@
+.body {
+    background-image: url('../Images/Rectangle\ 4.png');
+  }
+  
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items at the top */
+  }
+  
+  .main-content {
+    display: flex;
+    justify-content: space-between; /* Ensure space between text and image */
+    align-items: center; /* Align text and image horizontally */
+    width: 100%; /* Make sure the content takes up full width */
+  }
+  
+  .text-section {
+    max-width: 500px; /* Limit width of text section */
+  }
+  
+  .heading {
+    font-size: 65px;
+    font-weight: bold;
+    color: #000000; /* Black color */
+    font-family: "Regular"; /* Apply Regular font */
+    margin-bottom: 20px; /* Space between heading and description */
+  }
+  
+  .subheading {
+    font-size: 24px;
+    color: #666666; /* Darker text for subheading */
+    font-family: "Regular"; /* Apply Regular font */
+    margin-bottom: 30px; /* Space between subheading and button */
+  }
+  
+  .image-section img {
+    max-width: 100%; /* Make sure the image fits */
+    height: auto;
+    border-radius: 10px; /* Optional: rounded corners for the image */
+  }
+  
+  .hire-button {
+    padding: 15px 30px; /* Larger button size */
+    font-size: 20px; /* Increase font size */
+    color: white; /* White text */
+    background-color: #035E89; /* Blue background */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  .hire-button:hover {
+    background-color: #024d6f; /* Darker blue when hovered */
+  }
+  

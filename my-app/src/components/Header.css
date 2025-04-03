@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "Regular";
+    src: url(../Fonts/Montserrat-Regular.ttf);
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #fff;
+    font-family: "Regular"; /* Apply Regular font */
+  }
+  
+  .logo {
+    font-size: 32px;
+    font-weight: bold;
+    color: #035E89;
+    font-family: "Regular"; /* Apply Regular font */
+  }
+  
+  .log {
+    color: #000;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    margin: 0 15px;
+    color: black;
+    font-size: 16px;
+    font-family: "Regular"; /* Apply Regular font */
+  }
+  
+  .nav-links a.active {
+    font-weight: bold;
+    color: #035E89;
+    font-family: "Regular"; /* Apply Regular font */
+  }
+  
+  .Post {
+    background-color: #035E89; /* Blue color */
+    color: white; /* White text */
+    border: none; /* Remove any default border */
+    padding: 10px 20px; /* Adjust padding for button size */
+    font-size: 16px; /* Set font size */
+    font-family: "Regular"; /* Apply Regular font */
+    border-radius: 5px; /* Optional: for rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  .Post:hover {
+    background-color: #1E88E5; /* Darker blue when hovering */
+  }
+  

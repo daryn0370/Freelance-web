@@ -1,0 +1,82 @@
+.registration-form-container {
+    width: 400px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: "Regular"; /* Apply Regular font */
+  }
+  
+  .form-heading {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: #035E89;
+    font-family: "Regular"; /* Apply Regular font */
+  }
+  
+  .registration-form {
+    display: flex;
+    flex-direction: column;
+    font-family: "Regular"; /* Apply Regular font */
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    font-size: 16px;
+    color: #666666;
+    font-family: "Regular"; /* Apply Regular font */
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: "Regular"; /* Apply Regular font */
+  }
+  
+  .submit-btn {
+    padding: 15px;
+    font-size: 18px;
+    background-color: #035E89;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: "Regular"; /* Apply Regular font */
+  }
+  
+  .submit-btn:hover {
+    background-color: #024d6f;
+  }
+  
+  .login-link {
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Regular"; /* Apply Regular font */
+  }
+  
+  .login-link a {
+    color: #035E89;
+    text-decoration: none;
+    font-family: "Regular"; /* Apply Regular font */
+  }
+  
+  .login-link a:hover {
+    text-decoration: underline;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
